@@ -14,15 +14,15 @@ const Cards = () => {
             src={Single}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8">Basic Stand</h2>
+          <p className="text-center text-4xl font-bold">$100</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
+            {/* <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8">Send up to 2 GB</p> */}
             <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-[#afdb3d] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
             Start Trial
           </button>
         </div>
@@ -32,12 +32,12 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8">Standard Stand</h2>
+          <p className="text-center text-4xl font-bold">$150</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
+            {/* <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8">Send up to 2 GB</p> */}
             <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
           </div>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
@@ -50,15 +50,15 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8">Premium Stand</h2>
+          <p className="text-center text-4xl font-bold">$250</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
+            {/* <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8">Send up to 2 GB</p> */}
             <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-[#afdb3d] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
             Start Trial
           </button>
         </div>
